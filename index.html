@@ -7,12 +7,51 @@
   <title>Charleston Hackers</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <script src="index.js"></script>
 </head>
 
 <body>
-  <h1>Charleston Hackers</h1>
-  <h2>People who love to code in Charleston, SC</h2>
+  <div class="content"> <!-- content wrapper, keeps the footer stuck to the bottom if content less than 100vh -->
+
+    <!-- Header/nav section -->
+    <header>
+      <div class="headerTextDiv">
+        <h1 class='mainHeaderText'>Charleston Hackers</h1>
+      </div>
+      <nav class='navbar'>
+        <div class='navbarList'>
+          <p id='home' class='navbarListItem'>Home</p>
+          <p id='projects' class='navbarListItem'>Projects</p>
+          <p id='info' class='navbarListItem'>Info</p>
+        </div>
+      </nav>
+    </header>
+
+
+<!-- Content section -->
+  <div class="mainBodyContent">
+    <h2 class="subHeadDesc">People who love to code in Charleston, SC</h2>
+  </div>
+
+</div><!-- content wrapper, keeps the footer stuck to the bottom if content less than 100vh -->
+
+<!-- Footer section -->
+  <footer>
+    <div class="footerText">
+      <p class="footerDescText">Charleston Hackers is a local organization for people that love to code</p>
+      <p class="foundedDate">Charleston Hackers have been Hacking since Nov. 2018</p>
+    </div>
+    <div class="associatedLinks">
+      <a href="https://github.com/charleston-hackers" target="_blank">
+        <i class="fab fa-github-alt fa-3x linkIcons"></i>
+      </a>
+      <a href="https://www.meetup.com/Charleston-Hackers">
+        <img class='meetupLogo linkIcons' src="https://secure.meetupstatic.com/s/img/3825254008927924706/logo/svg/logo--mSwarm.svg" target="_blank">
+      </a>
+    </img>
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -1,3 +1,146 @@
-h1 {
-  color: orange;
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  min-width: 310px;
+}
+
+/* Header Section */
+header{
+  display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  width: 100%;
+  margin: 0px;
+  align-items: center;
+}
+nav,
+.headerTextDiv,
+.navbarList,
+.navbarListItem{
+  display: inline-block;
+}
+.headerTextDiv,
+.navbar{
+  margin: 0px auto;
+}
+.mainHeaderText{
+  padding: 0px 30px;
+}
+.navbarList{
+  padding: 0px 30px;
+}
+.navbarListItem{
+  padding: 0px 20px;
+  cursor: pointer;
+  font-size: 2.5vw;
+}
+
+
+
+/* Content Section */
+.subHeadDesc{
+  text-align: center;
+}
+
+
+/* Footer styles */
+.content {
+  min-height: calc(100vh - 220px);
+}
+footer {
+  display: flex;
+  -webkit-display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  max-width: 100%;
+  height: 200px;
+  color: white;
+  background-color: #19191a;
+  margin: 0px;
+  align-items: center;
+}
+.footerText,
+.associatedLinks,
+.meetupLogo{
+  display: inline-block;
+}
+.footerText{
+  margin: auto;
+  text-align: center;
+}
+.footerDescText{
+  font-size: 20px;
+  padding: 0px 30px;
+  text-align: center;
+}
+.associatedLinks{
+  margin: auto;
+  padding: 0px 30px;
+}
+.foundedDate{
+  font-size: 14px;
+  padding: 0px 30px;
+}
+.linkIcons{
+  color: white;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.meetupLogo{
+  width: 45px;
+}
+
+
+
+/* Media Querys  */
+@media screen and (max-width: 638px) {
+  .mainHeaderText{
+    font-size: 1.8em;
+  }
+  .navbarListItem{
+    font-size: 16px;
+  }
+  .subHeadDesc{
+    font-size: 1.2em;
+    width: 80%;
+    margin: 40px auto 0px;
+  }
+  footer{
+    height: 200px;
+  }
+  .footerDescText{
+    font-size: 0.9em;
+  }
+  .foundedDate{
+    font-size: 0.6em;
+  }
+}
+
+
+@media screen and (min-width: 639px) {
+  .mainHeaderText{
+    font-size: 5vw;
+
+  }
+}
+
+
+@media screen and (min-width: 865px){
+  .navbarListItem{
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (min-width: 1000px){
+  .mainHeaderText{
+    font-size: 50px;
+  }
 }
