@@ -3,7 +3,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  min-width: 310px;
+  min-width: 320px;
 }
 
 /* Header Section */
@@ -50,7 +50,7 @@ nav,
 
 /* Footer styles */
 .content {
-  min-height: calc(100vh - 220px);
+  min-height: calc(100vh - 200px);
 }
 footer {
   display: flex;
@@ -100,6 +100,26 @@ footer {
 
 
 /* Media Querys  */
+@media screen and (max-width: 796px) {
+  .footerText{
+    width: 100%;
+  }
+  .footerDescText{
+    font-size: 18px;
+  }
+  .foundedDate{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 680px){
+  .headerTextDiv{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+
 @media screen and (max-width: 638px) {
   .mainHeaderText{
     font-size: 1.8em;
@@ -112,14 +132,11 @@ footer {
     width: 80%;
     margin: 40px auto 0px;
   }
-  footer{
-    height: 200px;
-  }
   .footerDescText{
-    font-size: 0.9em;
+    font-size: 14px;
   }
   .foundedDate{
-    font-size: 0.6em;
+    font-size: 12px;
   }
 }
 
