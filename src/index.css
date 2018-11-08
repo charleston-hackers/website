@@ -7,7 +7,7 @@ body {
 }
 
 /* Header Section */
-header{
+header {
   display: flex;
   -webkit-display: flex;
   flex-wrap: wrap;
@@ -21,32 +21,29 @@ header{
 nav,
 .headerTextDiv,
 .navbarList,
-.navbarListItem{
+.navbarListItem {
   display: inline-block;
 }
 .headerTextDiv,
-.navbar{
+.navbar {
   margin: 0px auto;
 }
-.mainHeaderText{
+.mainHeaderText {
   padding: 0px 30px;
 }
-.navbarList{
+.navbarList {
   padding: 0px 30px;
 }
-.navbarListItem{
+.navbarListItem {
   padding: 0px 20px;
   cursor: pointer;
   font-size: 2.5vw;
 }
 
-
-
 /* Content Section */
-.subHeadDesc{
+.subHeadDesc {
   text-align: center;
 }
-
 
 /* Footer styles */
 .content {
@@ -68,79 +65,73 @@ footer {
 }
 .footerText,
 .associatedLinks,
-.meetupLogo{
+.meetupLogo {
   display: inline-block;
 }
-.footerText{
+.footerText {
   margin: auto;
   text-align: center;
 }
-.footerDescText{
+.footerDescText {
   font-size: 20px;
   padding: 0px 30px;
   text-align: center;
 }
-.associatedLinks{
+.associatedLinks {
   margin: auto;
   padding: 0px 30px;
 }
-.foundedDate{
+.foundedDate {
   font-size: 14px;
   padding: 0px 30px;
 }
-.linkIcons{
+.linkIcons {
   color: white;
   padding: 0px 5px;
   cursor: pointer;
 }
-.meetupLogo{
+.meetupLogo {
   width: 45px;
 }
 
-
-
 /* Media Querys  */
 @media screen and (max-width: 638px) {
-  .mainHeaderText{
+  .mainHeaderText {
     font-size: 1.8em;
   }
-  .navbarListItem{
+  .navbarListItem {
     font-size: 16px;
   }
-  .subHeadDesc{
+  .subHeadDesc {
     font-size: 1.2em;
     width: 80%;
     margin: 40px auto 0px;
   }
-  footer{
+  footer {
     height: 200px;
   }
-  .footerDescText{
+  .footerDescText {
     font-size: 0.9em;
   }
-  .foundedDate{
+  .foundedDate {
     font-size: 0.6em;
   }
 }
 
-
 @media screen and (min-width: 639px) {
-  .mainHeaderText{
+  .mainHeaderText {
     font-size: 5vw;
-
   }
 }
 
-
-@media screen and (min-width: 865px){
-  .navbarListItem{
+@media screen and (min-width: 865px) {
+  .navbarListItem {
     font-size: 25px;
   }
 }
 
-
-@media screen and (min-width: 1000px){
-  .mainHeaderText{
+@media screen and (min-width: 1000px) {
+  .mainHeaderText {
     font-size: 50px;
   }
 }
