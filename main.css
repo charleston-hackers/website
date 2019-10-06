@@ -60,6 +60,29 @@ nav,
   text-align: center;
 }
 
+/* Grid Layout */
+.grid-container {
+  width: 80%;
+  display: grid;
+  margin: auto;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 250px 250px 250px;
+  grid-auto-rows: 250px;
+  gap: 3% 3%;
+  place-items: center;
+}
+
+.grid-item {
+  grid-column: auto;
+  height: 200px;
+  background-color: #fffbbd;
+  border: 1px white solid;
+  border-top: none;
+  box-shadow: .5px 7px 5px #000;
+  margin-top: 2%;
+  padding: 2.5%;
+}
+
 
 /* Footer styles */
 .content {
