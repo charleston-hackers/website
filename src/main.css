@@ -72,10 +72,6 @@ nav,
   place-items: center;
 }
 
-.grid-col-1 {
-  grid-column: 1 / 2;
-}
-
 .grid-item {
   grid-column: auto;
   height: 200px;
@@ -86,6 +82,7 @@ nav,
   margin-top: 2%;
   padding: 2.5%;
 }
+
 
 /* Footer styles */
 .content {
