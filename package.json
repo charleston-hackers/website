@@ -1,0 +1,12 @@
+{
+  "name": "charleston-hackers.github.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
